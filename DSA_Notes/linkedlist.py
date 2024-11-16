@@ -30,3 +30,6 @@ class LinkedList:
 # Deletion: Head, Value, Index, Tail 
 
 # Searching: Value, Index
+
+
+# Cycle Detection

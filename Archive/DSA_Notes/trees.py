@@ -84,6 +84,12 @@ if __name__ == "__main__":
 # 2. In-order Traversal (Left → Node → Right)
 # 3. Post-order Traversal (Left → Right → Node)
 
+# Inorder (LNR): Left → Node → Right.
+# Preorder (NLR): Node → Left → Right.
+# Postorder (LRN): Left → Right → Node.
+# Level Order (BFS): Visit nodes level by level (use a queue).
+# Depth-First Search (DFS): Explore each branch fully before moving to the next.
+# Breadth-First Search (BFS): Explore all nodes at the present depth before moving to the next.
 
 class TreeNode:
     def __init__(self, data):

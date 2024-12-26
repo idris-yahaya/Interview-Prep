@@ -37,7 +37,7 @@
 - **Two Pointers**: Useful for comparisons or merging arrays.
 - **Sliding Window**: Optimizes subarray problems by maintaining a dynamic window.
 - **Pre-sorting**: Simplifies problems like finding pairs or intersections.
-- **Right-to-Left Traversal**: Solves problems requiring suffix-based logic.
+- **Right Traversal**: Solves problems requiring suffix-based logic.
 
 ---
 

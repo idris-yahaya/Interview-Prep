@@ -1,1 +1,1 @@
-# Implementation of [Specific Algorithm]
+""" [Algorithm] Implementation and Operations """

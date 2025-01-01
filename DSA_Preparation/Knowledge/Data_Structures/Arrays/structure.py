@@ -12,6 +12,8 @@ arr.extend([7, 8])          # Extend the array
 arr.insert(2, 99)           # Insert at index 2
 
 # Deletion
+del arr[2]                  # Removes element at index 2 
+del arr[1:3]                # Removes elements from index 1 to 2
 arr.remove(99)              # Remove the first occurrence of 99
 popped = arr.pop()          # Remove and return the last element
 popped_index = arr.pop(1)   # Remove and return element at index 1

@@ -103,9 +103,9 @@ class SimpleHashMap:
     def remove(self, key):
         index = self.hash_function(key)
         bucket = self.buckets[index]
-        for pair in bucket:
-            if pair[0] == key:
-                bucket.remove(pair)
+        for i, (k, v) in enumerate(bucket):
+            if k == key:
+                del bucket[i]  # Remove the key-value pair
                 return
 
     def print_map(self):
@@ -149,3 +149,10 @@ for index, (key, value) in enumerate(hash_map.items()):
 size = len(hash_map)                                # Get number of key-value pairs
 hash_map.clear()                                    # Remove all entries
 hash_map.update({'banana': 2, 'cherry': 3})         # Bulk insert/update
+
+# Retrieval and Update
+fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
+fruit_count = {}
+for fruit in fruits:
+    fruit_count[fruit] = fruit_count.get(fruit, 0) + 1
+print(fruit_count) 

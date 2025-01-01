@@ -20,6 +20,7 @@ class Solution:
 # 1. Understand (5 mins)
 #  - Rephrase the problem to confirm understanding
 #  - Clarify constraints, assumptions, and edge cases
+#  - Empty, Single, Invalid, and Duplicates Inputs, etc
 #  - Define input and output specifications and formats
 #  - Validate understanding with a simplified example
 

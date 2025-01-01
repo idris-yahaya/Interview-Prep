@@ -1,0 +1,48 @@
+﻿What is O(1) complexity?,Constant — runtime doesn’t depend on input size. Example: Accessing an element in an array by index (arr[5])
+What is O(log n) complexity?,Logarithmic — runtime grows proportionally to the logarithm of the input size. Example: Binary search.
+What is O(n) complexity?,Linear —  runtime grows proportionally to the input size. Example: Traversing a list.
+What is O(n log n) complexity?,"Quasilinear — runtime grows proportionally to n times the logarithm of n. Example: Merge sort, heap sort."
+What is O(n^2) complexity?,"Quadratic — runtime grows proportionally to the square of the input size. Example: Nested loops, bubble sort."
+What is O(2^n) complexity?,"Exponential — runtime doubles with each additional input. Example: Tower of Hanoi, generating all subsets of a set."
+What is O(n!) complexity?,Factorial — runtime grows factorially with the input size. Example: Permutations of a string.
+Rank the complexities from fastest to slowest.,O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(2^n) < O(n!).
+What is the time complexity of accessing an element in an array?,O(1)
+What is the time complexity of searching for an element in an array?,O(n)
+What is the time complexity of inserting an element in an array?,O(n)
+What is the time complexity of deleting an element from an array?,O(n)
+What is the time complexity of accessing an element in a hash table?,O(1) - average case; O(n) - worst case due to collisions
+What is the time complexity of searching for an element in a hash table?,O(1) - average case; O(n) - worst case due to collisions
+What is the time complexity of inserting an element into a hash table?,O(1) - average case; O(n) - worst case due to collisions
+What is the time complexity of deleting an element from a hash table?,O(1) - average case; O(n) - worst case due to collisions
+What is the time complexity of pushing an element onto a stack?,O(1)
+What is the time complexity of popping an element from a stack?,O(1)
+What is the time complexity of searching for an element in a stack?,O(n)
+What is the time complexity of enqueuing an element into a queue?,O(1)
+What is the time complexity of dequeuing an element from a queue?,O(1)
+What is the time complexity of searching for an element in a queue?,O(n)
+What is the time complexity of accessing an element in a linked list?,O(n)
+What is the time complexity of searching for an element in a linked list?,O(n)
+"What is the time complexity of inserting (head, middle, tail) an element into a linked list?",O(1) - head; O(n) - specific position; O(1) - tail with pointer; O(n) - tail with no pointer
+"What is the time complexity of deleting (head, middle, tail) an element from a linked list?",O(1) - head; O(n) - specific position; O(1) - tail with pointer; O(n) - tail with no pointer
+What is the time complexity of searching for an element in a binary search tree?,O(log n) - balanced; O(n) - skewed
+What is the time complexity of inserting an element into a binary search tree?,O(log n) - balanced; O(n) - skewed
+What is the time complexity of deleting an element from a binary search tree?,O(log n) - balanced; O(n) - skewed
+What is the time complexity of searching for a string in a trie?,"O(L), where L is the string length"
+What is the time complexity of inserting a string into a trie?,"O(L), where L is the string length"
+What is the time complexity of deleting a string from a trie?,"O(L), where L is the string length"
+What is the time complexity of accessing the minimum or maximum element in a heap?,O(1)
+What is the time complexity of searching for an element in a heap?,O(n)
+What is the time complexity of inserting an element into a heap?,O(log n)
+What is the time complexity of deleting the minimum or maximum element from a heap?,O(log n)
+What is the space complexity for an adjacency list?,O(V + E)
+What is the time complexity of adding a vertex in an adjacency list?,O(1)
+What is the time complexity of adding an edge in an adjacency list?,O(1)
+What is the time complexity of removing a vertex in an adjacency list?,O(V + E)
+What is the time complexity of removing an edge in an adjacency list?,O(E/V) - sparse graphs; O(V) - dense graphs
+What is the time complexity of BFS/DFS in an adjacency list?,O(V + E)
+What is the space complexity for an adjacency matrix?,O(V^2)
+What is the time complexity of adding a vertex in an adjacency matrix?,O(V^2) - requires matrix resizing
+What is the time complexity of adding an edge in an adjacency matrix?,O(1)
+What is the time complexity of removing a vertex in an adjacency matrix?,O(V^2)
+What is the time complexity of removing an edge in an adjacency matrix?,O(1)
+What is the time complexity of BFS/DFS in an adjacency matrix?,O(V^2)

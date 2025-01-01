@@ -3,11 +3,11 @@
 # NeetCode: [Link]
 
 """ Solution: [Approach] """
-# Time Complexity: [Big-O]
-# Space Complexity: [Big-O]
+# Time Complexity: O(?)
+# Space Complexity: O(?)
 
 # Thought Process:
-#  - [Insert explanation of approach and reasoning]
+# [Insert explanation of approach and reasoning]
 
 # Code Solution
 class Solution:

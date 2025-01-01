@@ -37,5 +37,16 @@ sqrt_val = math.sqrt(16)  # Output: 4.0
 gcd_val = math.gcd(20, 8)  # Output: 4
 
 
-ord()
-''.join()
+""" String and Character Functions """
+
+# Ordinal (Unicode number of character)
+ord_val = ord('A')  # Output: 65
+
+# Join list of strings into one
+joined_str = ''.join(['H', 'e', 'l', 'l', 'o'])  # Output: 'Hello'
+
+# Split string into list by whitespace or delimiter
+split_str = 'a b c'.split()  # Output: ['a', 'b', 'c']
+
+# Strip leading and trailing whitespace or characters
+stripped_str = '  hello  '.strip()  # Output: 'hello'

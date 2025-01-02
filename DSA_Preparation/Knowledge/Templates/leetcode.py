@@ -9,7 +9,7 @@
 # Thought Process:
 # [Insert explanation of approach and reasoning]
 
-# Code Solution
+# Solution Code
 class Solution:
     def solution(self):
         pass

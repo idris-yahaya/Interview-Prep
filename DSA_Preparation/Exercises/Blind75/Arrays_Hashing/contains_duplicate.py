@@ -9,7 +9,7 @@
 # Thought Process:
 # Use a set to keep track of seen elements. Return false if an element is already added
 
-# Code Solution
+# Solution Code
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         seen = set()
@@ -29,7 +29,7 @@ class Solution:
 # Thought Process:
 # Turn nums array into a set (eliminates duplicates) and check the size of both
 
-# Code Solution
+# Solution Code
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         # Verify length of set/regular version of nums
@@ -43,7 +43,7 @@ class Solution:
 # Thought Process:
 # Sort nums array and check if adjacent elements are duplicates
 
-# Code Solution
+# Solution Code
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         nums.sort()

@@ -9,7 +9,7 @@
 # Thought Process:
 # Sort each string in alphanumeric order and check if they are the same
 
-# Code Solution
+# Solution Code
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         # Sort and check if both strings are equal
@@ -23,7 +23,7 @@ class Solution:
 # Thought Process:
 # Retrieve character counts for each string and check if they are the same
 
-# Code Solution
+# Solution Code
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):

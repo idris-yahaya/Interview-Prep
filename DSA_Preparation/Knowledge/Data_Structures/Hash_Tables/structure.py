@@ -150,9 +150,21 @@ size = len(hash_map)                                # Get number of key-value pa
 hash_map.clear()                                    # Remove all entries
 hash_map.update({'banana': 2, 'cherry': 3})         # Bulk insert/update
 
+values = hash_map.values()                          # dict_values([5, 2, 3])
+value_list = list(hash_map.values())                # To convert to a list
+
 # Retrieval and Update
 fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
 fruit_count = {}
 for fruit in fruits:
     fruit_count[fruit] = fruit_count.get(fruit, 0) + 1
-print(fruit_count) 
+print(fruit_count)
+
+# Default Dict (Adding values without checking for key existence)
+from collections import defaultdict
+
+word_count = defaultdict(int)
+word_count['apple'] += 1
+
+grouping = defaultdict(list)
+grouping['fruit'].append('apple')

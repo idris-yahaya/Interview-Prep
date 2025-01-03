@@ -5,6 +5,7 @@
 """ Solution: [Approach] """
 # Time Complexity: O(?)
 # Space Complexity: O(?)
+# Where [? is ?]
 
 # Thought Process:
 # [Insert explanation of approach and reasoning]

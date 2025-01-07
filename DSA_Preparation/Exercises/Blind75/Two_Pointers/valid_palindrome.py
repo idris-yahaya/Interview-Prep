@@ -1,3 +1,17 @@
+""" 125. Valid Palindrome """
+# LeetCode: https://leetcode.com/problems/valid-palindrome/description/
+# NeetCode: https://neetcode.io/solutions/valid-palindrome
+
+""" Solution: [Approach] """
+# Time Complexity: O(?)
+# Space Complexity: O(?)
+# Where [? is ?]
+
+# Thought Process:
+# [Insert explanation of approach and reasoning]
+
+# Solution Code
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         left_c, right_c = 0, len(s) - 1
